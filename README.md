@@ -1,6 +1,6 @@
 # Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation
 
-[Chao Wen⋆](https://github.com/walsvid),
+[Chao Wen⋆](https://walsvid.github.io/),
 [Yinda Zhang⋆](https://www.zhangyinda.com/),
 [Zhuwen Li](https://scholar.google.com.sg/citations?user=gIBLutQAAAAJ&hl=en),
 [Xiangyang Xue](https://scholar.google.com.hk/citations?user=DTbhX6oAAAAJ&hl=zh-CN),
