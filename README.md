@@ -1,4 +1,4 @@
-# Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation (TPAMI2022)
+# Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation
 
 [Chao Wen⋆](https://walsvid.github.io/),
 [Yinda Zhang⋆](https://www.zhangyinda.com/),
