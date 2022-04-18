@@ -7,7 +7,6 @@
 [Xiangyang Xue](https://scholar.google.com.hk/citations?user=DTbhX6oAAAAJ&hl=zh-CN),
 [Yanwei Fu](http://yanweifu.github.io/)
 
-[![LICENSE](https://img.shields.io/github/license/ewrfcas/Pixel2MeshPlusPlus-MVDISN)](https://github.com/ewrfcas/Pixel2MeshPlusPlus-MVDISN/blob/main/LICENSE)
 
 [Project Page](https://ewrfcas.github.io/Pixel2MeshPlusPlus-MVDISN/)
 
