@@ -1,4 +1,4 @@
-# Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation
+# Pixel2Mesh++: 3D Mesh Generation and Refinement from Multi-View Images
 
 [Chao Wen⋆](https://walsvid.github.io/),
 [Yinda Zhang⋆](https://www.zhangyinda.com/),
