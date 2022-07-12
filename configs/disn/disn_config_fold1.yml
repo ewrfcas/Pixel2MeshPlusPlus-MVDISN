@@ -1,0 +1,43 @@
+checkpoint_dir: check_points
+float16: True
+dataset:
+  name: mv_disn_shapenet
+  filelist_train:
+    - 02691156_train_fold1.lst
+    - 02828884_train_fold1.lst
+    - 02933112_train_fold1.lst
+    - 02958343_train_fold1.lst
+    - 03001627_train_fold1.lst
+    - 03211117_train_fold1.lst
+    - 03636649_train_fold1.lst
+    - 03691459_train_fold1.lst
+    - 04090263_train_fold1.lst
+    - 04256520_train_fold1.lst
+    - 04379243_train_fold1.lst
+    - 04401088_train_fold1.lst
+    - 04530566_train_fold1.lst
+  filelist_test:
+    - 03001627_test.lst
+  img_dir: shapenet_processed/gt_v3
+  shapenet:
+    num_points: 2048
+model:
+  backbone: vgg16
+  name: disn
+num_gpus: 2
+checkpoint: null
+num_workers: 8
+name: disn
+test:
+  batch_size: 1
+  shuffle: false
+train:
+  batch_size: 32
+  num_epochs: 100
+  backbone_pretrained_model: null
+optim:
+  lr: 3.0e-4
+  lr_scheduler: "multistep"
+  lr_step:
+    - 50
+    - 75

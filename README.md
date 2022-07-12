@@ -23,3 +23,36 @@ of physically driven architecture, our model also exhibits generalization capabi
 number of input images. Model analysis experiments show that our model is robust to the quality of the initial mesh and the error of
 camera pose, and can be combined with a differentiable renderer for test-time optimization.
 
+## Important
+
+This project only supports training/testing MV-DISN in TPAMI2022 P2M++. More details about training the deformation network in P2M++ can be found in [here](https://github.com/walsvid/Pixel2MeshPlusPlus).
+
+## Preparation
+
+Compiling for marchingcubes and chamferloss.
+
+```
+python setup.py install
+```
+
+## Training
+
+Single GPU training:
+
+```
+CUDA_VISIBLE_DEVICES=0 python train.py --options ./configs/disn/disn_config.yml
+```
+
+Multi-GPU training:
+
+```
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py --options ./configs/disn/disn_config.yml
+```
+
+## Testing
+
+```
+CUDA_VISIBLE_DEVICES=0 python predict.py --options ./configs/disn/disn_config.yml
+```
+
+This project is built upon [Generation3D](https://github.com/walsvid/Generation3D) and [P2M++](https://github.com/walsvid/Pixel2MeshPlusPlus).
