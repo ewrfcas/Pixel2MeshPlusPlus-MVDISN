@@ -27,6 +27,10 @@ camera pose, and can be combined with a differentiable renderer for test-time op
 
 This project only supports training/testing MV-DISN in TPAMI2022 P2M++. More details about training the deformation network in P2M++ can be found in [here](https://github.com/walsvid/Pixel2MeshPlusPlus).
 
+## Data download
+
+We provide the [OneDrive](https://1drv.ms/f/s!Arld9Vmkf6wRgdg8ZcdNvR98vjpSaQ) link to download data.
+
 ## Preparation
 
 Compiling for marchingcubes and chamferloss.
